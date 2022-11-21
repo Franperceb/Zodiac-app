@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Zodiac-app</string>
+    <string name="intro_1">Saber tu signo zodiacal es importante.</string>
+    <string name="intro_2">Cuanto más conocimiento tengas sobre tu signo más facilidades encontrarás ante determinadas situaciones.</string>
+    <string name="intro_3">Cada signo tiene un sentido de la responsabilidad y de cómo deberían ser las cosas.</string>
+    <string name="version">Versión 1.0.</string>
+    <string name="check_sign">Calcular</string>
+    <string name="write_info">Ingresa los siguientes datos</string>
+    <string name="name">Nombre completo</string>
+    <string name="email">Correo electrónico</string>
+    <string name="account_number">Número de cuenta UNAM</string>
+    <string name="birth">Fecha de nacimiento</string>
+    <string name="splash_title">¿Cuál es mi horoscopo?</string>
+    <string name="checkout">Checa tu signo</string>
+    <string name="result_info">Tu horoscopo es</string>
+    <string name="result_info2">"Tu horoscopo chino es "</string>
+    <string name="name_val">"Nombre requerido"</string>
+    <string name="email_val">"Correo electrónico requerido"</string>
+    <string name="email_inval">"Correo electrónico inválido"</string>
+    <string name="aries">"Aries"</string>
+    <string name="tauro">"Tauro"</string>
+    <string name="geminis">"Geminis"</string>
+    <string name="cancer">"Cancer"</string>
+    <string name="leo">"Leo"</string>
+    <string name="virgo">"Virgo"</string>
+    <string name="libra">"Libra"</string>
+    <string name="escorpio">"Escorpio"</string>
+    <string name="sagitario">"Sagitario"</string>
+    <string name="capricornio">"Capricornio"</string>
+    <string name="acuario">"Acuario"</string>
+    <string name="piscis">"Piscis"</string>
+    <string name="mono">"Mono"</string>
+    <string name="gallo">"Gallo"</string>
+    <string name="perro">"Perro"</string>
+    <string name="cerdo">"Cerdo"</string>
+    <string name="rata">"Rata"</string>
+    <string name="buey">"Buey"</string>
+    <string name="tigre">"Tigre"</string>
+    <string name="conejo">"Conejo"</string>
+    <string name="dragon">"Dragon"</string>
+    <string name="serpiente">"Serpiente"</string>
+    <string name="caballo">"Caballo"</string>
+    <string name="borrego">"Borrego"</string>
+    <string name="account_inval">Cuenta invalida</string>
+
+</resources>

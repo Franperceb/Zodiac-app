@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".FormActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#3fff"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="108dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="114dp"
+            android:fontFamily="@font/syne_mono"
+            android:text="@string/write_info"
+            android:textAlignment="center"
+            android:textColor="#F4F4F4"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/tvNombreUser"
+            android:theme="@style/MyDatePicker"
+            android:layout_width="317dp"
+            android:layout_height="71dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:shadowColor="#FF9800"
+            android:textColor="#FAF6F6"
+            android:textColorHighlight="#FFC107"
+            android:textColorHint="#F3F3F3"
+            android:textColorLink="#FFC107"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/tvNumCuentaUser"
+            android:theme="@style/MyDatePicker"
+            android:layout_width="319dp"
+            android:layout_height="79dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="@string/account_number"
+            android:inputType="numberSigned"
+            android:maxLength="9"
+            android:textColor="#FFFEFE"
+            android:textColorHighlight="#FFC107"
+            android:textColorHint="#FBF9F9"
+            android:textColorLink="#FFC107"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/tvCorreoUser"
+            android:theme="@style/MyDatePicker"
+            android:layout_width="317dp"
+            android:layout_height="82dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:shadowColor="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FFC107"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#F44336"
+            android:importantForAutofill="no" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/birth"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <DatePicker
+            android:id="@+id/dpFechaUser"
+            android:layout_width="322dp"
+            android:layout_height="159dp"
+            android:layout_gravity="center|center_horizontal"
+            android:backgroundTint="#FBFBFB"
+            android:calendarTextColor="#FFFFFF"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            android:headerBackground="#FFFFFF"
+            android:scrollbarSize="20dp"
+            android:theme="@style/MyDatePicker"
+            android:yearListSelectorColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnCalculo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/syne_mono"
+            android:onClick="goToResult"
+            android:text="@string/check_sign"
+            android:textColor="@color/gold"
+            android:textSize="22sp"
+            android:textStyle="normal|bold"
+            app:cornerRadius="40dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

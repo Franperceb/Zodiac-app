@@ -1,0 +1,55 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.app21102022"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/jorgeceballos/Documents/UNAM/9no semestre/App21102022/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/jorgeceballos/Documents/UNAM/9no semestre/App21102022/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/jorgeceballos/Documents/UNAM/9no semestre/App21102022/app/src/main/AndroidManifest.xml:5:5-23:19
+12        android:allowBackup="true"
+12-->/Users/jorgeceballos/Documents/UNAM/9no semestre/App21102022/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] /Users/jorgeceballos/.gradle/caches/transforms-3/52afda33ba279032acd202166e7fc9b4/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->/Users/jorgeceballos/Documents/UNAM/9no semestre/App21102022/app/src/main/AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->/Users/jorgeceballos/Documents/UNAM/9no semestre/App21102022/app/src/main/AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->/Users/jorgeceballos/Documents/UNAM/9no semestre/App21102022/app/src/main/AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->/Users/jorgeceballos/Documents/UNAM/9no semestre/App21102022/app/src/main/AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.App21102022" >
+21-->/Users/jorgeceballos/Documents/UNAM/9no semestre/App21102022/app/src/main/AndroidManifest.xml:11:9-49
+22        <activity
+22-->/Users/jorgeceballos/Documents/UNAM/9no semestre/App21102022/app/src/main/AndroidManifest.xml:12:9-22:20
+23            android:name="com.example.app21102022.MainActivity"
+23-->/Users/jorgeceballos/Documents/UNAM/9no semestre/App21102022/app/src/main/AndroidManifest.xml:13:13-41
+24            android:exported="true"
+24-->/Users/jorgeceballos/Documents/UNAM/9no semestre/App21102022/app/src/main/AndroidManifest.xml:14:13-36
+25            android:label="@string/app_name"
+25-->/Users/jorgeceballos/Documents/UNAM/9no semestre/App21102022/app/src/main/AndroidManifest.xml:15:13-45
+26            android:theme="@style/Theme.App21102022.NoActionBar" >
+26-->/Users/jorgeceballos/Documents/UNAM/9no semestre/App21102022/app/src/main/AndroidManifest.xml:16:13-65
+27            <intent-filter>
+27-->/Users/jorgeceballos/Documents/UNAM/9no semestre/App21102022/app/src/main/AndroidManifest.xml:17:13-21:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/Users/jorgeceballos/Documents/UNAM/9no semestre/App21102022/app/src/main/AndroidManifest.xml:18:17-69
+28-->/Users/jorgeceballos/Documents/UNAM/9no semestre/App21102022/app/src/main/AndroidManifest.xml:18:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/Users/jorgeceballos/Documents/UNAM/9no semestre/App21102022/app/src/main/AndroidManifest.xml:20:17-77
+30-->/Users/jorgeceballos/Documents/UNAM/9no semestre/App21102022/app/src/main/AndroidManifest.xml:20:27-74
+31            </intent-filter>
+32        </activity>
+33    </application>
+34
+35</manifest>
