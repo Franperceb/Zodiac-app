@@ -43,4 +43,5 @@
     <string name="serpiente">Snake</string>
     <string name="caballo">Horse</string>
     <string name="borrego">Sheep</string>
+    <string name="age">Age</string>
 </resources>

@@ -15,8 +15,8 @@
         android:gravity="center"
         android:orientation="vertical"
         android:padding="10dp"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="108dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <TextView
             android:id="@+id/textView9"
@@ -53,7 +53,7 @@
         <TextView
             android:id="@+id/tvnNum"
             android:layout_width="wrap_content"
-            android:layout_height="68dp"
+            android:layout_height="48dp"
             android:fontFamily="@font/syne_mono"
             android:textAlignment="center"
             android:textColor="#F4F4F4"
@@ -62,7 +62,7 @@
 
         <TextView
             android:id="@+id/textView11"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/syne_mono"
             android:text="@string/birth"
@@ -74,11 +74,32 @@
         <TextView
             android:id="@+id/tvBirth"
             android:layout_width="match_parent"
-            android:layout_height="68dp"
+            android:layout_height="wrap_content"
             android:fontFamily="@font/syne_mono"
             android:textAlignment="center"
             android:textColor="#F4F4F4"
             android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvageInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/syne_mono"
+            android:text="@string/age"
+            android:textAlignment="center"
+            android:textColor="#F4F4F4"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvAgeUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/syne_mono"
+            android:textAlignment="center"
+            android:textColor="#F4F4F4"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <TextView
@@ -95,17 +116,24 @@
         <TextView
             android:id="@+id/tvHoroscopo"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:fontFamily="@font/syne_mono"
             android:textAlignment="center"
             android:textColor="#F4F4F4"
-            android:textSize="32sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivHoroscope"
+            android:layout_width="248dp"
+            android:layout_height="109dp"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/pisces" />
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="35dp"
             android:fontFamily="@font/syne_mono"
             android:text="@string/result_info2"
             android:textAlignment="center"
@@ -116,12 +144,19 @@
         <TextView
             android:id="@+id/tvHoroscopoChino"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="52dp"
             android:fontFamily="@font/syne_mono"
             android:textAlignment="center"
             android:textColor="#F4F4F4"
             android:textSize="32sp"
             android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivChinese"
+            android:layout_width="258dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/rat" />
 
 
     </LinearLayout>

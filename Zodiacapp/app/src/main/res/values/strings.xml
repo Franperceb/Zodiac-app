@@ -42,5 +42,6 @@
     <string name="caballo">"Caballo"</string>
     <string name="borrego">"Borrego"</string>
     <string name="account_inval">Cuenta invalida</string>
+    <string name="age">Edad</string>
 
 </resources>

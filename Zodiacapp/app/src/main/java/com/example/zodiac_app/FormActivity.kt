@@ -68,7 +68,9 @@ class FormActivity : AppCompatActivity() {
         val birth = "$dayUser/$monthUser/$yearUser";
         val horoscopeUser = getHoroscope(dayUser, monthUser)
         val chineseHoroscopeUser = getChineseHoroscope(yearUser)
-        var userInfo = User(userName, account, birth, userEmail, horoscopeUser,chineseHoroscopeUser)
+        val ageUser = getAge( yearUser,monthUser,dayUser).toString()
+
+        var userInfo = User(userName, account, birth,ageUser, userEmail, horoscopeUser,chineseHoroscopeUser)
 
 
 
@@ -83,6 +85,16 @@ class FormActivity : AppCompatActivity() {
 
     fun CharSequence?.isValidEmail() = !isNullOrEmpty() && Patterns.EMAIL_ADDRESS.matcher(this).matches()
 
+    private fun getAge(year: Int, month: Int, day: Int): Int {
+        val dateOfBirth = Calendar.getInstance()
+        val today = Calendar.getInstance()
+        dateOfBirth[year, month] = day
+        var age = today[Calendar.YEAR] - dateOfBirth[Calendar.YEAR]
+        if (today[Calendar.DAY_OF_YEAR] < dateOfBirth[Calendar.DAY_OF_YEAR]) {
+            age--
+        }
+        return age
+    }
 
     fun getHoroscope(day: Int,month: Int ): String{
         var horoscope = "";
