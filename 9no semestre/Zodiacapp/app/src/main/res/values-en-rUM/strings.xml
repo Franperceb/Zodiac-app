@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zodiac-app</string>
+    <string name="intro_1">It its important to know your zodiac sign</string>
+    <string name="intro_2">The more knowledge you have about your sign, the more facilities you will find in certain situations.</string>
+    <string name="version">Version 1.0.</string>
+    <string name="intro_3">" Every sign has a sense of responsibility and how things should be."</string>
+    <string name="check_sign">Calculate</string>
+    <string name="write_info">Enter the following data</string>
+    <string name="name">Complete name</string>
+    <string name="email">Email</string>
+    <string name="account_number">Student ID</string>
+    <string name="birth">Birth</string>
+    <string name="splash_title">"What is my horoscope? "</string>
+    <string name="checkout">"check your sign "</string>
+    <string name="result_info">Your horoscope is</string>
+    <string name="result_info2">"Your chinese horoscope is "</string>
+    <string name="name_val">Name required</string>
+    <string name="email_val">Email Required</string>
+    <string name="email_inval">Email invalid</string>
+    <string name="account_inval">Student ID required</string>
+    <string name="aries">Aries</string>
+    <string name="tauro">Taurus</string>
+    <string name="geminis">Gemini</string>
+    <string name="cancer">Cancer</string>
+    <string name="leo">Leo</string>
+    <string name="virgo">Virgo</string>
+    <string name="libra">Libra</string>
+    <string name="escorpio">Scorpio</string>
+    <string name="sagitario">Sagittarius</string>
+    <string name="capricornio">Capricorn</string>
+    <string name="acuario">Aquarius</string>
+    <string name="piscis">Pisces</string>
+    <string name="mono">Monkey</string>
+    <string name="gallo">Rooster</string>
+    <string name="perro">Dog</string>
+    <string name="cerdo">Pig</string>
+    <string name="rata">Rat</string>
+    <string name="buey">Ox</string>
+    <string name="tigre">Tiger</string>
+    <string name="conejo">Rabbit</string>
+    <string name="dragon">Dragon</string>
+    <string name="serpiente">Snake</string>
+    <string name="caballo">Horse</string>
+    <string name="borrego">Sheep</string>
+</resources>
